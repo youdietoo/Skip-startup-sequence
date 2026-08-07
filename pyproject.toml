@@ -1,0 +1,14 @@
+[project]
+name = "Skip startup sequence"
+version = "1.0"
+authors = [{ name = "youdietoo" }]
+description = """\
+Automatically skips the startup screen and continues to the main menu without requiring user input.
+"""
+dependencies = [
+]
+
+[tool.sdkmod]
+name = "Skip startup sequence"
+license = {name = "MIT", url = "https://choosealicense.com/licenses/mit/" }
+coop_support = "ClientSide"

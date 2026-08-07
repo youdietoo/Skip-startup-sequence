@@ -27,7 +27,7 @@ started = False
     Type.POST_UNCONDITIONAL,
     immediately_enable=True,
 )
-def skip_startup_sequence(obj, args, ret, func):
+def hook_skip_startup_sequence(obj, args, ret, func):
 
     global startup_object, started
 

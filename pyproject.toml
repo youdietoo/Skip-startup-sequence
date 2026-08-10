@@ -2,9 +2,11 @@
 name = "Skip startup sequence"
 version = "1.0"
 authors = [{ name = "youdietoo" }]
-description = """\
+description = "\
 Automatically skips the startup screen and continues to the main menu without requiring user input.
-"""
+
+Original by: juso and mopioid
+"
 dependencies = [
 ]
 
